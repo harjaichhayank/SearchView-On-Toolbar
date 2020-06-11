@@ -47,6 +47,7 @@ public class RecyclerAdapter extends RecyclerView.Adapter<RecyclerAdapter.MyView
             textView = itemView.findViewById(R.id.TextView);
         }
     }
+
     void  setFilter(ArrayList<Movie> newList){
         arrayList = new ArrayList<>();
         arrayList.addAll(newList);

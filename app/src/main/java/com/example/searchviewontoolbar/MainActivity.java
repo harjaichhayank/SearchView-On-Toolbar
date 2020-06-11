@@ -21,7 +21,9 @@ public class MainActivity extends AppCompatActivity implements SearchView.OnQuer
     int[] moviePosters = {R.drawable.movie_1,R.drawable.movie_2,R.drawable.movie_3,
             R.drawable.movie_4,R.drawable.movie_5,R.drawable.movie_6,
             R.drawable.movie_7,R.drawable.movie_8,R.drawable.movie_9,R.drawable.movie_10,
-            R.drawable.movie_11,R.drawable.movie_12,R.drawable.movie_13,R.drawable.movie_14};
+            R.drawable.movie_11,R.drawable.movie_12,R.drawable.movie_13,R.drawable.movie_14,
+            R.drawable.movie_15,R.drawable.movie_16,R.drawable.movie_17,R.drawable.movie_18,
+            R.drawable.movie_19,R.drawable.movie_20,R.drawable.movie_21};
 
     String[] MovieNames;
 
@@ -53,9 +55,11 @@ public class MainActivity extends AppCompatActivity implements SearchView.OnQuer
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.menu_items,menu);
+
         MenuItem menuItem = menu.findItem(R.id.action_search);
         SearchView searchView = (SearchView) menuItem.getActionView();
         searchView.setOnQueryTextListener(this);
+
         return true;
     }
 
