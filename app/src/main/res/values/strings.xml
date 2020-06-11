@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">SearchViewOnToolbar</string>
+    <string name="Parasite">Parasite</string>
+    <string name="imageView">ImageView</string>
+    <string name="search">Search</string>
+
+    <string-array name="Top_10_movies">
+        <item>Parasite</item>
+        <item>Avengers:EndGame</item>
+        <item>Us(2019)</item>
+        <item>Knives Out</item>
+        <item>Toy Story 4</item>
+        <item>The Irishman</item>
+        <item>Little Woman</item>
+        <item>BookSmart</item>
+        <item>The Farewell</item>
+        <item>Marriage Story</item>
+        <item>Split</item>
+        <item>MoonNight</item>
+        <item>Inception</item>
+        <item>127 Hours</item>
+    </string-array>
+</resources>
