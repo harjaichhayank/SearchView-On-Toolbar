@@ -5,8 +5,8 @@ class Movie {
     private String names;
 
     Movie(String names,int img_id) {
-        this.setImg_id(img_id);
-        this.setNames(names);
+        setImg_id(img_id);
+        setNames(names);
     }
 
     String getNames() {
